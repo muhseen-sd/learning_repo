@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Document</title>
+    <style>
+        #calculator {
+            background-color: black;
+            color: coral;
+            width: 40%;
+            height: 15rem;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            padding: 2rem;
+        }
+
+        tr {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="calculator">
+        <div id="display"></div>
+        <div class="buttons">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>+</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>x</button>
+            <button>C</button>
+            <button>0</button>
+            <button>=</button>
+            <button>/</button>
+        </div>
+        
+    </div> -->
+    <table>
+        <tr>
+            <td id="box1" style="border: 1px solid black;">1</td>
+            <td id="box2" style="border: 1px solid black;">2</td>
+            <td id="box3" style="border: 1px solid black;">3</td>
+        </tr>
+    </table>
+    <script>
+        let box1 = document.getElementById("box1").innerText
+        let box2 = document.getElementById("box2").innerText
+        let box3 = document.getElementById("box3").innerText
+        
+        
+        let arr = [Number(box1), Number(box2) ,Number(box3) ]
+        console.log(arr);
+        
+        let doubleNum = arr.map(function(boxvalue,i,arr ) {
+            return boxvalue * 2 
+            
+        })
+        console.log(doubleNum);
+
+        let myArrays = ["Usama", "Muhseen", "Umar", "Usman"]
+        let toString = myArrays.join(" ==> ")
+        console.log(toString);
+        
+    </script>
+</body>
+
+</html>

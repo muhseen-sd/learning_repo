@@ -1,0 +1,116 @@
+
+.nav-bar{
+	background: ghostwhite;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	size: 100%;
+}
+
+
+
+.logo{
+	font-family: fantasy;
+	display: flex;
+	align-items: center;
+	color: blue;
+}
+
+.search-container{
+	gap: 100px;
+}
+
+.nav-link ul{
+	list-style-type: none;
+	display: flex;
+	margin-right: 20px;
+}
+
+.nav-link li{
+	padding: 0 10px;
+	color: lightblue;
+	cursor: pointer;
+
+}
+
+input[type="text"]{
+	width: 200px;
+	height: 20px;
+	border: 2px solid blue;
+	border-radius: 5px;
+
+
+}
+
+input[type="text"]:focus{
+	color: orange;
+}
+
+::placeholder{
+	color: orange;
+
+	}
+}
+
+/*Done with navigatiob bar, going to another part*/
+
+.categories{
+	
+
+}
+
+.categories ul{
+	list-style-type: none;
+	background-color: blue;
+	width: 15%;
+	margin: 0;
+	padding: 10px;
+	color: white;
+	border: 1px solid blue;
+	border: 1px dotted lightblue;
+	
+}
+
+.categories ul li{
+	
+}
+
+
+.categories ul li a{
+	display: block;
+	padding:8px 16px;
+
+}
+
+.categories ul li:hover{
+	background-color: blue;
+	color: white;
+
+}
+
+.categories img{
+	max-width:300px ;
+	height: auto;
+}
+
+.categories.side-elements{
+	margin-left: 50%;
+	padding: 1px 16px;
+}
+
+.chat-bot{
+	width: 300px;
+	background: lightblue;
+	border-radius: 20px;
+	border: 1px blue;
+	left: 0;
+	height:auto;
+	padding: 10px;
+	margin-left: 0;
+	color: blue;
+	margin-left: 900px;
+	margin-top: 0px;
+	position: sticky;
+
+
+}

@@ -1,0 +1,36 @@
+body{
+	background-image: url("islamic7.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	font-family:'Noto Sans Arabic', sans-serif;
+	padding-top: 10px;
+	color: white;
+}
+
+button{
+	
+	margin-bottom: 10px;
+	border: ;
+	padding: 10px;
+	border-radius: 50%;
+	
+
+}
+
+#count-btn{
+	width: 100px;
+	height: 100px;
+	background-color: darkgreen;
+	color: white;
+	border-style: 2 px solid red;
+	text-align: center;
+}
+
+#reset-btn {
+	width: 60px;
+	height: 60px;
+	background-color: darkred;
+	color: white;
+}

@@ -1,0 +1,10 @@
+ th, td{
+	border: 1px solid white;
+	border-collapse: collapse;
+	border-radius: 5px;
+
+}
+
+th, td{
+	background-color: lightblue ;
+}
